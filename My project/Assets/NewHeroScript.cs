@@ -10,12 +10,12 @@ public class NewHeroScript : MonoBehaviour
     // Thêm biến này vào đầu
     private float npcX = 4f; // Vị trí cố định của NPC
 
-    [Header("UI Hội thoại")]
+    [Header("UI Dialogue")]
     public GameObject interactPrompt;    // UI "[Space] Nói chuyện"
     public GameObject dialogueBox;       // Khung hội thoại
     public TextMeshProUGUI dialogueText; // Text hiển thị câu thoại
 
-    [Header("Hội thoại NPC")]
+    [Header("Dialogue NPC")]
     [TextArea(2, 5)]
     public string[] dialogueLines = {
         "Hello, traveler!",
